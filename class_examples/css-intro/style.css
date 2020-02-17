@@ -1,8 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{font-family: 'Montserrat', sans-serif;
+font-size: 12pt;
+line-height: 1.65;
+
+}
+
+
+
 h1{color: rgb(0,50,50);
 /* color: teal;
 color: #bada55} */
 background-color: #556b2f;
 text-align: center;
 font-size: 12pt;
-font-size: 
+font-size: 12px;
+font-size: 400%; 400% of the default browser
+font-family: 'Lato', sans-serif;
+font-weight: 900;
+}
+
+b, strong {
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  color: pink;
+  text-decoration: none;
 }
