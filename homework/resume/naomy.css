@@ -2,15 +2,42 @@
 
 body{ font-family: 'Source Sans Pro', sans-serif;
 font-size: 12pt;
-line-height: 1.65;
-
-
+line-height: 1.15;
 }
 
 .links{
 text-decoration: none;
 }
 
+.Headlines{
+  background-color: #FFFACD;
+  font-size: 150%;
+}
+
+.Donde{
+  text-decoration: underline;
+}
+
+.Skills{
+  background-color: #E6E6FA;
+  width: 900px;
+  height: 60px;
+  border: 1px solid black;
+}
+
+.paragraphs{
+  font-style: italic;
+}
+
 a:hover{
   background-color: yellow;
+}
+
+a{
+  background-color: #E6E6FA;
+}
+
+h1{
+  text-align: center;
+  background-color: #E6E6FA;
 }
