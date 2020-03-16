@@ -1,7 +1,7 @@
 body {
   width: 900px;
   margin: 0 auto;
-  background-color: lavender;
+  background-color: white;
 }
 nav {
   margin-bottom: 150px;
@@ -85,7 +85,7 @@ section {
   grid-row: 1/2;
 }
 
-.grid3-text {
+.grid4-text {
   grid-column: 2/4;
   grid-row: 1/2;
   /* Spreads texts over multiple columns */
@@ -98,7 +98,7 @@ section {
 
 .grid4-container {
   display: grid;
-  grid-gap: 5%;
+  grid-gap: 2%;
 }
 
 .grid4-hed {
@@ -109,6 +109,8 @@ section {
 .grid4-img {
   grid-column: 1/2;
   grid-row: 2/3;
+  height: 200px;
+  width: 50%;
 }
 
 .grid4-text {
@@ -116,7 +118,11 @@ section {
   grid-row: 2/3;
 }
 
-/* End of mixed grid */
+.grid4-tracklist{
+  grid-column:3/4;
+  grid-row: 2/3;
+}
+
 
 footer {
   margin-top: 120px;
