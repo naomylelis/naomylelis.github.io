@@ -14,70 +14,63 @@ section {
 /* A gallery grid */
 .grid1-container {
   display: grid;
-  /* you can use the following two properties to define the height of your rows or the width of your columns. Units you can use for this are px, %, fr units, and em/rem. */
-  grid-template-columns: 150px 150px;
-  grid-template-rows: 150px 150px;
-
-  /* grid-column-gap and grid-row-gap let you set the spacing between grid cells. You can set them uniformly using the grid-gap property. */
-  grid-column-gap: 20px;
-  grid-row-gap: 30px;
+  grid-gap: 5%;
 }
 
-.grid1-img-1 {
-  /* grid-column and grid-rows are ways to more succintly define the start/end points of grid cell's columns and rows */
+.grid1-hed {
   grid-column: 1/2;
-  /* grid-column-start: 1;
-  grid-column-end: 2; */
-  grid-row: 1/2;
-  /* grid-row-start: 1;
-  grid-row-end: 2; */
-}
-
-.grid1-img-2 {
-  grid-column: 2/3;
   grid-row: 1/2;
 }
 
-.grid1-img-3 {
+.grid1-img {
   grid-column: 1/2;
   grid-row: 2/3;
+  height: 200px;
+  width: 30%;
 }
 
-.grid1-img-4 {
+.grid1-text {
   grid-column: 2/3;
   grid-row: 2/3;
+  column-count: 1;
 }
 
-/* End of gallery grid code */
-
-/* Text 1 - Putting a headline and two different paragraphs in separate columns*/
+.grid1-tracklist{
+  grid-column:3/4;
+  grid-row: 2/3;
+}
 
 .grid2-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5%;
 }
 
 .grid2-hed {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-.grid2-text-1 {
+
+.grid2-img {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 200px;
+  width: 26%;
+}
+
+.grid2-text {
   grid-column: 2/3;
-  grid-row: 1/2;
-}
-.grid2-text-2 {
-  grid-column: 3/4;
-  grid-row: 1/2;
+  grid-row: 2/3;
+  column-count: 1;
 }
 
-/* End of Text 1 */
-
-/* Text 2 - a headline and a multi-column text */
+.grid2-tracklist{
+  grid-column:3/4;
+  grid-row: 2/3;
+}
 
 .grid3-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 2%;
+  grid-gap: 5%;
 }
 
 .grid3-hed {
@@ -85,20 +78,28 @@ section {
   grid-row: 1/2;
 }
 
-.grid4-text {
-  grid-column: 2/4;
-  grid-row: 1/2;
-  /* Spreads texts over multiple columns */
-  column-count: 2;
+.grid3-img {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  height: 200px;
+  width: 26%;
 }
 
-/* End of Text 2 */
+.grid4-text {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  column-count: 1;
+}
 
-/* Mixed: A grid using picture and text */
+.grid4-tracklist{
+  grid-column:3/4;
+  grid-row: 2/3;
+}
+
 
 .grid4-container {
   display: grid;
-  grid-gap: 2%;
+  grid-gap: 5%;
 }
 
 .grid4-hed {
@@ -110,23 +111,16 @@ section {
   grid-column: 1/2;
   grid-row: 2/3;
   height: 200px;
-  width: 50%;
+  width: 90%;
 }
 
 .grid4-text {
   grid-column: 2/3;
   grid-row: 2/3;
+  column-count: 1;
 }
 
 .grid4-tracklist{
   grid-column:3/4;
   grid-row: 2/3;
-}
-
-
-footer {
-  margin-top: 120px;
-  border-top: 3px solid #556b2f;
-  padding-top: 10px;
-  height: 150px;
 }
