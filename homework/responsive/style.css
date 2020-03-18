@@ -1,8 +1,8 @@
 body {
   width: 900px;
   margin: 0 auto;
-  background-color: white;
-
+  background-color: #A9A9A9;
+  line-height: 1.15;
 }
 
 nav {
@@ -15,8 +15,13 @@ section {
 
 h1{
   text-align: center;
-
 }
+
+h2{
+  border: 1px solid black;
+  height: 40px;
+  
+  }
 
 .grid1-container {
   display: grid;
