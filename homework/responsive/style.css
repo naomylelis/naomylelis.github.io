@@ -1,7 +1,7 @@
 body {
   width: 900px;
   margin: 0 auto;
-  background-color: #A9A9A9;
+  background-color: #F0F8FF;
   line-height: 1.15;
 }
 
@@ -18,9 +18,11 @@ h1{
 }
 
 h2{
+background-color: white; 
   border: 1px solid black;
   height: 40px;
-  
+padding: 20px 10px 10px 20px;
+
   }
 
 .grid1-container {
