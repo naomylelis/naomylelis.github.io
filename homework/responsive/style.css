@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
 body {
+  font-family: 'Noto Sans', sans-serif;
   width: 900px;
   margin: 0 auto;
   background-color: #F0F8FF;
@@ -18,7 +21,7 @@ h1{
 }
 
 h2{
-background-color: white; 
+background-color: white;
   border: 1px solid black;
   height: 40px;
 padding: 20px 10px 10px 20px;
@@ -136,4 +139,11 @@ padding: 20px 10px 10px 20px;
 .grid4-tracklist{
   grid-column:3/4;
   grid-row: 2/3;
+}
+
+footer {
+  margin-top: 120px;
+  border-top: 3px black;
+  padding-top: 10px;
+  height: 150px;
 }
