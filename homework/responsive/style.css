@@ -2,14 +2,21 @@
 
 body {
   font-family: 'Noto Sans', sans-serif;
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   background-color: #F0F8FF;
   line-height: 1.15;
 }
 
 nav {
-  margin-bottom: 150px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+nav a{
+  color: #1E90FF;
+  text-decoration: none;
+  margin-right: 10px;
 }
 
 section {
@@ -28,12 +35,17 @@ padding: 20px 10px 10px 20px;
 
   }
 
-.grid1-container {
+  .navtitle{
+    text-align: center;
+    text-decoration: underline;
+  }
+
+.grid1-container, .grid2-container, .grid3-container, .grid4-container {
   display: grid;
   grid-gap: 5%;
 }
 
-.grid1-hed {
+.grid1-hed, .grid2-hed, .grid3-hed, .grid4-hed{
   grid-column: 1/2;
   grid-row: 1/2;
 }
@@ -48,7 +60,6 @@ padding: 20px 10px 10px 20px;
 .grid1-text {
   grid-column: 2/3;
   grid-row: 2/3;
-  column-count: 1;
 }
 
 .grid1-tracklist{
@@ -56,10 +67,6 @@ padding: 20px 10px 10px 20px;
   grid-row: 2/3;
 }
 
-.grid2-container {
-  display: grid;
-  grid-gap: 5%;
-}
 
 .grid2-hed {
   grid-column: 1/2;
@@ -82,11 +89,6 @@ padding: 20px 10px 10px 20px;
 .grid2-tracklist{
   grid-column:3/4;
   grid-row: 2/3;
-}
-
-.grid3-container {
-  display: grid;
-  grid-gap: 5%;
 }
 
 .grid3-hed {
@@ -112,11 +114,6 @@ padding: 20px 10px 10px 20px;
   grid-row: 2/3;
 }
 
-
-.grid4-container {
-  display: grid;
-  grid-gap: 5%;
-}
 
 .grid4-hed {
   grid-column: 1/2;
