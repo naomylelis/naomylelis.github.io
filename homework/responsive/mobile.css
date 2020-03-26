@@ -7,14 +7,25 @@ body{
 .grid1-container, .grid2-container, .grid3container, .grid4-container{
 
 grid-template-columns: 1fr;
-grid-template-rows: repeat (4,100px);
+grid-template-rows: repeat (5,1fr);
 grid-column-gap: 0px;
 grid-row-gap: 15px;
 
 }
 
-.grid1-img1{
+.grid1-img, .grid2-img, .grid3-img, .grid4-img{
   grid-column: 1/2;
+grid-row:2/3;
+}
+
+.grid1-text, .grid2-text, .grid3-text, .grid4-text{
+grid-column: 1/2;
+grid-row: 3/4;
+}
+
+.grid1-tracklist, .grid2-tracklist, .grid3-tracklist, .grid4-tracklist{
+grid-column: 1/2;
+grid-row: 4/5;
 
 }
 

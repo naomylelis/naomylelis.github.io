@@ -50,93 +50,22 @@ padding: 20px 10px 10px 20px;
   grid-row: 1/2;
 }
 
-.grid1-img {
+.grid1-img, .grid2-img, .grid3-img, .grid4-img {
   grid-column: 1/2;
   grid-row: 2/3;
-  height: 200px;
-  width: 80%;
+  width: 100%;
 }
 
-.grid1-text {
+.grid1-text, .grid2-text, .grid3-text, .grid4-text {
   grid-column: 2/3;
   grid-row: 2/3;
 }
 
-.grid1-tracklist{
+.grid1-tracklist, .grid2-tracklist, .grid3-tracklist, .grid4-tracklist{
   grid-column:3/4;
   grid-row: 2/3;
 }
 
-
-.grid2-hed {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.grid2-img {
-  grid-column: 1/2;
-  grid-row: 2/3;
-  height: 200px;
-  width: 85%;
-}
-
-.grid2-text {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  column-count: 1;
-}
-
-.grid2-tracklist{
-  grid-column:3/4;
-  grid-row: 2/3;
-}
-
-.grid3-hed {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.grid3-img {
-  grid-column: 1/2;
-  grid-row: 2/3;
-  height: 200px;
-  width: 80%;
-}
-
-.grid3-text {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  column-count: 1;
-}
-
-.grid3-tracklist{
-  grid-column:3/4;
-  grid-row: 2/3;
-}
-
-
-.grid4-hed {
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-.grid4-img {
-  grid-column: 1/2;
-  grid-row: 2/3;
-  height: 200px;
-  width: 85%;
-}
-
-.grid4-text {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  column-count: 1;
-}
-
-.grid4-tracklist{
-  grid-column:3/4;
-  grid-row: 2/3;
-}
 
 footer {
     margin-top: 50px;
