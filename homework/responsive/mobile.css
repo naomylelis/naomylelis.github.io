@@ -4,7 +4,7 @@ body{
   margin: 5%;
 }
 
-.grid1-container, .grid2-container, .grid3container, .grid4-container{
+.grid1-container, .grid2-container, .grid3-container, .grid4-container{
 
 grid-template-columns: 1fr;
 grid-template-rows: repeat (4,1fr);
@@ -13,9 +13,14 @@ grid-row-gap: 15px;
 
 }
 
+.grid1-hed, .grid2-hed, .grid3-hed, .grid4-hed{
+grid-column: 1/2;
+grid-row: 1/2;
+}
+
 .grid1-img, .grid2-img, .grid3-img, .grid4-img{
   grid-column: 1/2;
-grid-row:2/3;
+  grid-row:2/3;
 }
 
 .grid1-text, .grid2-text, .grid3-text, .grid4-text{
