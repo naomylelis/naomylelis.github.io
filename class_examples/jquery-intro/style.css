@@ -1,4 +1,8 @@
-#title {
-  /* only works with one thing */
+/* #title {
   color: blue;
+} */
+.big-text {
+  color: #f9423a;
+  font-size: 120px;
+}
 }
