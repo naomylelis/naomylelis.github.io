@@ -27,7 +27,10 @@ $(document).ready(function() {
 
   });
 
+  $("#box").mousedown(function() {
+    $("#box").css("background-color", "green");
 
+  });
   // $("#title").css("color", "#bada55");
   // $("#title").css("font-size", "125px")
 
