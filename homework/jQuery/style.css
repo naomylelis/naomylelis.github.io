@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
 
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 12pt;
+  line-height: 1.15;
+}
+
 body {
   max-width: 900px;
   margin: 0 auto;
   background-color: #F3B063;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 12pt;
-  line-height: 1.15;
 }
 
 nav {
@@ -48,6 +51,10 @@ h1 {
   grid-column: 3/4;
   grid-row: 1/2;
   width: 100%;
+}
+
+#mustvisit {
+  display: none;
 }
 
 footer {
