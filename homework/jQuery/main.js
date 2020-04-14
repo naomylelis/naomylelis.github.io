@@ -10,11 +10,6 @@ $(document).ready(function() {
     $("#title").html("Guide to <em>Lisbon, Portugal</em>");
   });
 
-  $("#navigation").mouseover(function() {
-    $("navigation").css("background-color", "#B0BF1A")
-
-  });
-
   $("#button1").click(function() {
 
     $("#mustvisit").toggle();
@@ -22,9 +17,8 @@ $(document).ready(function() {
   });
 
   $("#button2").click(function() {
-    // stuff we put here will happen when you click button 2.
 
-    $("#title").removeClass("big-text");
+    $("#musteat").toggle();
   });
 
   $("#tips").mouseover(function() {
