@@ -53,7 +53,7 @@ h1 {
   width: 100%;
 }
 
-#mustvisit {
+#mustvisit, #musteat {
   display: none;
 }
 
