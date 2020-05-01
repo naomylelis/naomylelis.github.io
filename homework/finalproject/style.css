@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #B57EDC;
+  line-height: 1.15;
+}
+
+nav {
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid black;
+  height: 30px;
+  padding: 20px 10px 10px 20px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+section {
+  margin-bottom: 4%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  background-color: white;
+  border: 1px solid black;
+  height: 40px;
+  padding: 20px 10px 10px 20px;
+}
+
+.navtitle {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.lost-grid-container, .alternative-grid-container, .bars-grid-container, .pop-grid-container {
+  display: grid;
+  grid-gap: 5%;
+}
+
+.lost-grid-hed, .alternative-grid-hed, .bars-grid-hed, .pop-grid-hed {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.lost-grid-img, .alternative-grid-img, .bars-grid-img, .pop-grid-img {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  width: 100%;
+}
+
+.lost-grid-text, .alternative-grid-text, .bars-grid-text, .pop-grid-text {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.lost-grid-link, .alternative-grid-link, .bars-grid-link, .pop-grid-link {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+footer {
+  margin-top: 50px;
+  border-top: 3px solid black;
+  padding-top: 10px;
+  height: 150px;
+}
