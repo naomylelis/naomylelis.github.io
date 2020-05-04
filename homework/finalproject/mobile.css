@@ -5,7 +5,7 @@
 
   .lost-grid-container, .alternative-grid-container, .bars-grid-container, .pop-grid-container {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat (4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 15px;
   }
