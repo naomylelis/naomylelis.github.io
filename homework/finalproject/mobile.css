@@ -4,8 +4,10 @@
   }
 
   .lost-grid-container, .alternative-grid-container, .bars-grid-container, .pop-grid-container {
-    display: grid;
-    grid-gap: 20%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
   }
 
   .lost-grid-hed, .alternative-grid-hed, .bars-grid-hed, .pop-grid-hed {
